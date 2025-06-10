@@ -14,7 +14,6 @@ output_dir = os.path.join(current_dir, "out")
 output_docx_name = "lettre_de_motivation.docx"
 output_pdf_name = "lettre_de_motivation.pdf"
 
-# Valeurs par défaut
 default_replacements = {
     "salutations": "Monsieur, Madame,",
     "date": datetime.datetime.now().strftime("%d/%m/%y"),
