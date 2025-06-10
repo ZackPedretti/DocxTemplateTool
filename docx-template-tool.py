@@ -8,7 +8,8 @@ import re
 
 current_dir = Path(__file__).resolve().parent
 base_files_dir = os.path.join(current_dir, "base_files")
-input_path = os.path.join(base_files_dir, "base_letter.docx")
+base_file_name = "base_letter.docx"
+input_path = os.path.join(base_files_dir, base_file_name)
 output_dir = os.path.join(current_dir, "out")
 output_docx_name = "lettre_de_motivation.docx"
 output_pdf_name = "lettre_de_motivation.pdf"
