@@ -5,11 +5,11 @@ DocxTemplateTool is a tool that allows you to quickly edit docx files by making 
 The creation of templates is very easy. Here are the necessary steps:
 - Create a docx file using MS Word, LibreOffice or any other text editor that handles docx files.
 - Write a text
-- Edit the text that can change to put it as a name inside curly brackets
+- Edit the text that can change to put it as a placeholder name inside curly brackets
 
-Example: "Hello {name1} and {name2}, my name is {my_name} and today is {date}"
+Example: `"Hello {name1} and {name2}, my name is {my_name} and today is {date}"`
 
-To futher understand, you may want to look at [the example I used](https://github.com/ZackPedretti/DocxTemplateTool/blob/main/base_files/base_letter.docx).
+To further understand, you may want to look at [the example I used](https://github.com/ZackPedretti/DocxTemplateTool/blob/main/base_files/base_letter.docx).
 
 ## Use the tool on a template
 To use the tool on a template, you need to put it in the base_files directory of the project. Then, you need to edit the "base_file_name" variable to the name of your base file.
@@ -23,7 +23,7 @@ To set default values, you will need to write them in the `default_replacements`
 - The placeholder name should be the key
 - The default value should be the value
 
-As an example, for the example: "Hello {name1} and {name2}, my name is {my_name} and today is {date}"
+As an example, for the example: `"Hello {name1} and {name2}, my name is {my_name} and today is {date}"`
 
 The `default_replacements` dictionnary could be:
 ```python
