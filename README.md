@@ -34,5 +34,8 @@ default_replacements = {
 ```
 
 ## Export to PDF
+
+⚠ Warning: Only works on Windows
+
 To export to pdf, you will need to install [LibreOffice](https://fr.libreoffice.org/download/telecharger-libreoffice/), as it will be used for the export. You will need to verify that `C:\Program Files\LibreOffice\program\soffice.exe` exists.
 The file will then be automatically exported.
