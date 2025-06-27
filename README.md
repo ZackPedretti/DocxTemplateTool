@@ -1,5 +1,5 @@
 # DocxTemplateTool
-DocxTemplateTool is a tool that allows you to quickly edit docx files by making customized templates. This is useful for repetitive texts, such as cover letters or email.
+DocxTemplateTool is a tool that allows you to quickly edit docx files by making customized templates. This is useful for repetitive texts, such as cover letters or emails.
 
 ## Create a template
 The creation of templates is very easy. Here are the necessary steps:
